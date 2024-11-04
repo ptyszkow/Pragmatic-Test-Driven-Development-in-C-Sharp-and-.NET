@@ -14,7 +14,8 @@ jobs:
 
     runs-on: ubuntu-latest
     defaults:
-      working-directory: ./ch10/UqsAppointmentBooking
+      run:
+       working-directory: ./ch10/UqsAppointmentBooking
 
     steps:
     - uses: actions/checkout@v4
